@@ -11,7 +11,7 @@
 .container{
   margin-left: auto;
   margin-right: auto;
-  height: 100px;
+  
   width: 1200px;
   padding: 0 15px;
   border: 1px solid red;
@@ -20,32 +20,54 @@
 {
   margin-left: auto;
   margin-right: auto;
-  height: 100px;
-  width: 1200px;
+width: 1200px;
   padding: 0 15px;
   border: 1px solid red;
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
+  align-items: center;
 
   
 
 }
+.logo{
+  display: flex;
+  width: max-content;
+  margin-right:  93px ;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-items: center;
 
-.nav
-.nav-list,
+}
+
+.nav-list{
+  display: flex;
+  max-width: min-content;
+  margin: 0 0 0 0px;
+  padding-left: 0px;
+}
+.logo,
+.nav-list{
+  display: inline-flex;
+  align-items: center;
+}
+.nav-list li{
+  margin-right: 52px;
+}
+
+
 .address{
 display: flex;
-flex-direction:row-reverse;
-padding-top: 35px;
-margin-top: 0px;
-
+ align-items: center;
+ padding-left: 0px;
+ margin: 0px;
+}
+.address li{
+  margin-left: 54px;
 }
 
   
-.nav-list{
-  margin-left: 93px;
-}
+
 
 
 
