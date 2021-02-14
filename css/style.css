@@ -26,23 +26,28 @@
   border: 1px solid red;
   display: flex;
   justify-content: space-between;
-align-content: center;
+  flex-direction: row;
+
   
 
 }
-.logo{
-  padding-top: 30px;
-margin-top: 0px;
-}
+
 .nav
 .nav-list,
 .address{
-display:inline-flex;
-align-content: center;
+display: flex;
+flex-direction:row-reverse;
 padding-top: 35px;
 margin-top: 0px;
 
 }
+
+  
+.nav-list{
+  margin-left: 93px;
+}
+
+
 
 ul {
   list-style: none;
