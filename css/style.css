@@ -66,6 +66,7 @@ display: flex;
   margin-left: 54px;
 }
 
+
   
 
 
@@ -147,6 +148,18 @@ img {
   font-size: 44px;
   line-height: 60px;
   letter-spacing: 0, 04;
+  display: flex;
+  align-items: center;
+ width: 599px;
+ width: max-content;
+ padding-top: 211px;
+ padding-bottom: 46px;
+ padding-left: 281px;
+ padding-right: 288px;
+ margin: 0px;
+ justify-content:center;
+}
+
 }
 .button {
   color: var(--white-text);
@@ -156,6 +169,18 @@ img {
   font-size: 16;
   line-height: 30px;
   letter-spacing: 0, 02;
+  
+  
+}
+.button-l{
+  display: flex;
+  padding-top: 63px;
+  padding-bottom: 217px;
+  padding-left: 517px;
+  padding-right: 518px;
+  width: max-content;
+  margin: 0px;
+ 
 }
 .button:hover,
 :focus {
