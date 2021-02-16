@@ -15,6 +15,7 @@
   width: 1200px;
   padding: 0 15px;
   border: 1px solid red;
+   
 }
 .container-header
 {
@@ -141,6 +142,8 @@ img {
 .head {
   background-color: var(--back-gray);
 }
+
+
 .hero {
   color: var(--white-text);
   font-family: 'Roboto', sans-serif;
@@ -154,18 +157,20 @@ img {
 }
 .hero{
   display: flex;
-  align-items: center;
+  
  width: 599px;
  width: max-content;
  padding-top: 211px;
  padding-bottom: 0px;
- padding-left: 281px;
- padding-right: 288px;
+ padding-left: 298px;
+ padding-right: 303px;
  margin: 0px;
  justify-content:center;
 }
 
-
+.cars-projects{
+  display:inline-block;
+}
 
 
 .button{
@@ -182,23 +187,64 @@ img {
 }
 
 
-
+.button{
+  color: var(--white-text);
+  background-color: var(--blue-text);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16;
+  line-height: 30px;
+  letter-spacing: 0, 02;
+}
 
 .button-l{
-  display:inline-flex;
+  display: inline-flex;
   padding-top: 45px;
   padding-bottom: 250px;
-  padding-left: 485px;
-  padding-right: 485px;
+  padding-left: 500px;
+  padding-right: 501px;
   width: max-content;
   margin: 0px;
+  
+  display: flex;
+  
+  
+}
+ 
+  align-items: center;
 
- align-items: center;
+
 }
 .button:hover,
 :focus {
   color: var(--white-text);
   background-color: transparent;
+}
+.scroll-container{
+  display:flex;
+ 
+}
+  
+ 
+
+.scrolls{
+  display: inline-flex;
+  width: min-content;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 97px;
+  padding-bottom: 104px;
+  margin: 0px;
+  
+   
+}
+.scrolls li{
+  width: 270px;
+  margin-right: 33px;
+  
+}
+.scrolls li:last-child{
+  padding-right: 0px;
 }
 .scroll-title {
   color: var(--black-text);
@@ -223,7 +269,70 @@ img {
   font-size: 36px;
   line-height: 42.19px;
   letter-spacing: 0, 05;
+  
+
+  
 }
+.heading{
+  display: flex;
+  align-items: center;
+
+ width: max-content;
+ padding-top: 0px;
+ padding-bottom: 59px;
+ padding-left: 415px;
+ padding-right: 414px;
+ margin: 0px;
+ justify-content:center;
+}
+.images{
+  display: flex;
+  padding: 0px 0px 94px 0px;
+  margin: 0px;
+  justify-content:space-between;
+}
+.images li{
+  margin-right: 30px;
+}
+.images li:last-child {
+  margin-right: 0;
+}
+.heading-team{
+  color: var(--black-text);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42.19px;
+  letter-spacing: 0, 05;
+}
+.heading-team{
+  display: flex;
+  align-items: center;
+
+ width: max-content;
+ padding-top: 54px;
+ padding-bottom: 50px;
+ padding-left: 471px;
+ padding-right: 470px;
+ margin: 0px;
+ justify-content:center;
+}
+.cards{
+  display: flex;
+  margin: 0px;
+  padding: 0px 0px 93px 0px;
+  justify-content: space-between;
+  
+  align-items: center;
+}
+.cards li{
+  margin-right: 30px;
+}
+.cards li:last-child {
+  margin-right: 0px;
+
+}
+
 .team {
   background-color: var(--back-white);
 }
@@ -234,6 +343,22 @@ img {
   font-size: 16px;
   line-height: 18, 75px;
   letter-spacing: 0, 03;
+}
+.name{
+  display: flex;
+  margin: 0px;
+  padding-top: 33px;
+  padding-bottom: 13px;
+align-items: center;
+}
+.vocation {
+  margin: 0px;
+  
+
+}
+  
+
+  
 }
 .vocation {
   color: var(--gray-text);
@@ -246,12 +371,13 @@ img {
 
 .button-list {
   color: var(--black-text);
-  background-color: var(--white-text);
+  background-color: transparent;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0, 03;
+  
 }
 .button-list:hover,
 :focus {
@@ -267,6 +393,17 @@ img {
   line-height: 36px;
   letter-spacing: 0, 02;
 }
+.projects-list{
+  display:flex;
+  margin: 0px;
+  padding: 95px 295px 50px 295px;
+  
+}
+.projects-list li{
+  display: flex;
+  margin-left: 8px;
+  
+}
 
 .list-title {
   color: var(--gray-text);
@@ -279,6 +416,12 @@ img {
 .footer {
   background-color: var(--back-gray);
 }
+
+.footer-logo{
+  display: block;
+  margin: 0px;
+padding: 66px 0px 28px 0px;
+}
 .logo-white {
   color: var(--white-text);
   font-family: 'Raleway', sans-serif;
@@ -289,6 +432,9 @@ img {
 }
 address {
   font-style: normal;
+  display: block;
+  margin: 0px;
+  padding-bottom: 0px;
 }
 .address-city {
   color: var(--white-text);
@@ -297,6 +443,8 @@ address {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0, 03;
+  margin: 0px;
+  padding-bottom: 22px;
 }
 .address-link {
   color: var(--white-text-op-60);
@@ -305,4 +453,16 @@ address {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0, 03;
+  display: block;
+  margin: 0px;
+  padding-bottom: 19px;
+}
+.link-address{
+  display: block;
+  margin: 0px;
+  text-align: left;
+  padding-left: 0px;
+}
+.link-address li:last-child{
+  padding-bottom: 65px;
 }
