@@ -148,20 +148,27 @@ img {
   font-size: 44px;
   line-height: 60px;
   letter-spacing: 0, 04;
+  margin: 0px;
+  display: inline;
+  
+}
+.hero{
   display: flex;
   align-items: center;
  width: 599px;
  width: max-content;
  padding-top: 211px;
- padding-bottom: 46px;
+ padding-bottom: 0px;
  padding-left: 281px;
  padding-right: 288px;
  margin: 0px;
  justify-content:center;
 }
 
-}
-.button {
+
+
+
+.button{
   color: var(--white-text);
   background-color: var(--blue-text);
   font-family: 'Roboto', sans-serif;
@@ -169,22 +176,29 @@ img {
   font-size: 16;
   line-height: 30px;
   letter-spacing: 0, 02;
-  
-  
-}
-.button-l{
   display: flex;
-  padding-top: 63px;
-  padding-bottom: 217px;
-  padding-left: 517px;
-  padding-right: 518px;
+  
+  background-color: transparent;
+}
+
+
+
+
+.button-l{
+  display:inline-flex;
+  padding-top: 45px;
+  padding-bottom: 250px;
+  padding-left: 485px;
+  padding-right: 485px;
   width: max-content;
   margin: 0px;
- 
+
+ align-items: center;
 }
 .button:hover,
 :focus {
   color: var(--white-text);
+  background-color: transparent;
 }
 .scroll-title {
   color: var(--black-text);
