@@ -1,12 +1,16 @@
 :root {
-  --blue-text: rgba(33, 150, 243, 1);
-  --black-logo: rgba(0, 0, 0, 1);
-  --black-text: rgba(33, 33, 33, 1);
-  --gray-text: rgba(117, 117, 117, 1);
-  --white-text: rgba(255, 255, 255, 1);
-  --white-text-op-60: rgba(255, 255, 255, 60%);
-  --back-gray: rgba(47, 48, 58, 1);
-  --back-white: rgba(245, 244, 250, 1);
+  --main-color: rgb(33, 150, 243, 1);
+  --first-logo: rgb(0, 0, 0, 1);
+  --corporation-color: rgb(33, 33, 33, 1);
+  --scroll-text: rgb(117, 117, 117, 1);
+  --main-light: rgb(255, 255, 255, 1);
+  --main-light-op-60: rgba(255, 255, 255, 60%);
+  --head-footer-background: rgb(47, 48, 58, 1);
+  --team-background: rgb(245, 244, 250, 1);
+}
+.body{
+  font-family: 'Roboto',sans-serif ;
+  font-weight: 700;
 }
 .container{
   margin-left: auto;
@@ -85,12 +89,12 @@ img {
   height: auto;
 }
 .header {
-  background-color: var(--white-text);
+  background-color: var(--main-light);
   
 }
 
 .logo-blue {
-  color: var(--blue-text);
+  color: var(--main-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -100,21 +104,21 @@ img {
 
 .logo-blue,.logo-black:hover,
 :focus {
-  color: var(--blue-text);
+  color: var(--main-color);
   background-color: transparent;
 }
 
 
 .logo-black {
-  color: var(--black-logo);
-  font-family: 'Raleway', sans-serif;
+  color: var(--first-logo);
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 30, 52px;
+  line-height: 1.292;
   letter-spacing: 0.03;
 }
 .list {
-  color: var(--black-text);
+  color: var(--corporation-color);
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -127,7 +131,7 @@ img {
 }
 
 .list-address {
-  color: var(--gray-text);
+  color: var(--scroll-text);
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -137,35 +141,35 @@ img {
 
 .list-address:hover,
 :focus {
-  color: var(--blue-text);
+  color: var(--main-color);
+  background-color: transparent;
+
 }
 .head {
-  background-color: var(--back-gray);
+  background-color: var(--head-footer-background);
 }
 
 
 .hero {
-  color: var(--white-text);
-  font-family: 'Roboto', sans-serif;
+  color: var(--main-light);
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
   letter-spacing: 0, 04;
   margin: 0px;
-  display: inline;
+ 
   
 }
 .hero{
-  display: flex;
-  
- width: 599px;
- width: max-content;
- padding-top: 211px;
+  display: inline-flex;
+  width: 1200px;
+padding-top: 211px;
  padding-bottom: 0px;
- padding-left: 298px;
- padding-right: 303px;
+ padding-left: 0px;
+ padding-right: 0px;
  margin: 0px;
- justify-content:center;
+ text-align: center;
+ justify-content: center;
 }
 
 .cars-projects{
@@ -174,28 +178,19 @@ img {
 
 
 .button{
-  color: var(--white-text);
-  background-color: var(--blue-text);
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+  color: var(--main-light);
+  background-color: var(--main-color);
+  
   font-size: 16;
   line-height: 30px;
   letter-spacing: 0, 02;
+  cursor: pointer;
   display: flex;
-  
   background-color: transparent;
 }
 
 
-.button{
-  color: var(--white-text);
-  background-color: var(--blue-text);
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 16;
-  line-height: 30px;
-  letter-spacing: 0, 02;
-}
+
 
 .button-l{
   display: inline-flex;
@@ -207,17 +202,13 @@ img {
   margin: 0px;
   
   display: flex;
-  
+  align-items: center;
   
 }
  
-  align-items: center;
-
-
-}
 .button:hover,
 :focus {
-  color: var(--white-text);
+  color: var(--main-color);
   background-color: transparent;
 }
 .scroll-container{
@@ -247,25 +238,20 @@ img {
   padding-right: 0px;
 }
 .scroll-title {
-  color: var(--black-text);
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+  color: var(--corporation-color);
   font-size: 14px;
   line-height: 16.41px;
   letter-spacing: 0, 02;
 }
 .scroll-indent {
-  color: var(--gray-text);
-  font-family: 'Roboto', sans-serif;
+  color: var(--scroll-text);
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0, 03;
 }
 .heading {
-  color: var(--black-text);
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+  color: var(--corporation-color);
   font-size: 36px;
   line-height: 42.19px;
   letter-spacing: 0, 05;
@@ -308,8 +294,7 @@ img {
 .heading-team{
   display: flex;
   align-items: center;
-
- width: max-content;
+width: max-content;
  padding-top: 54px;
  padding-bottom: 50px;
  padding-left: 471px;
@@ -322,8 +307,8 @@ img {
   margin: 0px;
   padding: 0px 0px 93px 0px;
   justify-content: space-between;
+  text-align: center;
   
-  align-items: center;
 }
 .cards li{
   margin-right: 30px;
@@ -334,11 +319,10 @@ img {
 }
 
 .team {
-  background-color: var(--back-white);
+  background-color: var(--team-background);
 }
 .name {
-  color: var(--black-text);
-  font-family: 'Roboto', sans-serif;
+  color: var(--corporation-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 18, 75px;
@@ -349,7 +333,8 @@ img {
   margin: 0px;
   padding-top: 33px;
   padding-bottom: 13px;
-align-items: center;
+text-align: center;
+justify-content: center;
 }
 .vocation {
   margin: 0px;
@@ -359,10 +344,9 @@ align-items: center;
   
 
   
-}
+
 .vocation {
-  color: var(--gray-text);
-  font-family: 'Roboto', sans-serif;
+  color: var(--scroll-text);
   font-weight: 400;
   font-size: 16px;
   line-height: 18, 75px;
@@ -370,9 +354,8 @@ align-items: center;
 }
 
 .button-list {
-  color: var(--black-text);
-  background-color: transparent;
-  font-family: 'Roboto', sans-serif;
+  color: var(--corporation-color);
+  background-color: var(--main-light);
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -381,14 +364,12 @@ align-items: center;
 }
 .button-list:hover,
 :focus {
-  color: var(--white-text);
-  background-color: var(--blue-text);
+  color: var(--main-color);
+  background-color:transparent;
 }
 
 .projects {
   color: var(--black-text);
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0, 02;
@@ -406,15 +387,49 @@ align-items: center;
 }
 
 .list-title {
-  color: var(--gray-text);
-  font-family: 'Roboto', sans-serif;
+  color: var(--scroll-text);
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0, 04;
 }
+
+.cars-projects{
+  display: inline-block;
+  width: fit-content;
+  margin: 0px;
+  padding: 0px;
+  
+}
+.card-projects-list{
+display: inline-flex;
+text-align: center;
+}
+.card-projects .li{
+  margin-right: 30px;
+}
+.projects{
+  margin: 0px;
+  padding: 31px 0px 24px 0px;
+}
+.images-card{
+  margin-right: 30px;
+  justify-content: space-between;
+}
+.images-card-last{
+  margin: 0px;
+}
+.list-title{
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 60px;
+}
+.list-title-footer{
+  padding-bottom: 120px;
+  margin: 0px;
+}
 .footer {
-  background-color: var(--back-gray);
+  background-color: var(--head-footer-background);
 }
 
 .footer-logo{
@@ -423,7 +438,7 @@ align-items: center;
 padding: 66px 0px 28px 0px;
 }
 .logo-white {
-  color: var(--white-text);
+  color: var(--main-light);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -437,7 +452,7 @@ address {
   padding-bottom: 0px;
 }
 .address-city {
-  color: var(--white-text);
+  color: var(--main-light);
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -447,7 +462,7 @@ address {
   padding-bottom: 22px;
 }
 .address-link {
-  color: var(--white-text-op-60);
+  color: var(--main-light-op-60);
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -462,6 +477,12 @@ address {
   margin: 0px;
   text-align: left;
   padding-left: 0px;
+
+}
+.address-link:hover, 
+  :focus{
+color: var(--main-color);
+  background-color: transparent;
 }
 .link-address li:last-child{
   padding-bottom: 65px;
