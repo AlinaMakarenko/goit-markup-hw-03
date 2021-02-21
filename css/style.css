@@ -7,6 +7,7 @@
   --main-light-op-60: rgba(255, 255, 255, 60%);
   --head-footer-background: rgb(47, 48, 58, 1);
   --team-background: rgb(245, 244, 250, 1);
+  --border-header: rgb(236,236,236,1);
 }
 .body{
   font-family: 'Roboto',sans-serif ;
@@ -18,7 +19,8 @@
   
   width: 1200px;
   padding: 0 15px;
-  border: 1px solid red;
+  
+
    
 }
 .container-header
@@ -27,11 +29,11 @@
   margin-right: auto;
 width: 1200px;
   padding: 0 15px;
-  border: 1px solid red;
+ 
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+border-bottom: 1px solid var(--border-header);
   
 
 }
@@ -305,7 +307,8 @@ width: max-content;
 .cards{
   display: flex;
   margin: 0px;
-  padding: 0px 0px 93px 0px;
+  padding: 0px;
+  
   justify-content: space-between;
   text-align: center;
   
@@ -338,7 +341,7 @@ justify-content: center;
 }
 .vocation {
   margin: 0px;
-  
+  padding-bottom: 31px;
 
 }
   
@@ -377,7 +380,7 @@ justify-content: center;
 .projects-list{
   display:flex;
   margin: 0px;
-  padding: 95px 295px 50px 295px;
+  padding: 95px 295px 20px 295px;
   
 }
 .projects-list li{
@@ -404,6 +407,7 @@ justify-content: center;
 .card-projects-list{
 display: inline-flex;
 text-align: center;
+padding-top: 30px;
 }
 .card-projects .li{
   margin-right: 30px;
@@ -422,15 +426,27 @@ text-align: center;
 .list-title{
   margin: 0px;
   padding: 0px;
-  padding-bottom: 60px;
+  padding-bottom: 26px;
 }
 .list-title-footer{
-  padding-bottom: 120px;
+  padding-bottom: 26px;
   margin: 0px;
+}
+.projects-list-title{
+border: 1px solid var(--border-header);
+margin-right: 30px;
+}
+.projects-list-title-last{
+  border: 1px solid var(--border-header);
+margin-right: 0px;
+
 }
 .footer {
   background-color: var(--head-footer-background);
+  padding-top: 94px;
 }
+
+  
 
 .footer-logo{
   display: block;
