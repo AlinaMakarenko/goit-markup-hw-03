@@ -16,8 +16,7 @@
 .container{
   margin-left: auto;
   margin-right: auto;
-  
-  width: 1200px;
+   width: 1200px;
   padding: 0 15px;
   
 
@@ -28,9 +27,7 @@
   margin-left: auto;
   margin-right: auto;
 width: 1200px;
-  padding: 0 15px;
- 
-  display: flex;
+ display: flex;
   justify-content: space-between;
   align-items: center;
 border-bottom: 1px solid var(--border-header);
@@ -158,18 +155,19 @@ img {
   font-size: 44px;
   line-height: 60px;
   letter-spacing: 0, 04;
-  margin: 0px;
+  
  
   
 }
 .hero{
-  display: inline-flex;
-  width: 1200px;
-padding-top: 211px;
+  display: flex;
+  width: 696px;
+padding-top: 212px;
  padding-bottom: 0px;
  padding-left: 0px;
  padding-right: 0px;
- margin: 0px;
+ margin: 0px 237px 0px 236px;
+ align-items: center;
  text-align: center;
  justify-content: center;
 }
@@ -182,13 +180,12 @@ padding-top: 211px;
 .button{
   color: var(--main-light);
   background-color: var(--main-color);
-  
   font-size: 16;
   line-height: 30px;
   letter-spacing: 0, 02;
   cursor: pointer;
   display: flex;
-  background-color: transparent;
+  
 }
 
 
@@ -198,13 +195,12 @@ padding-top: 211px;
   display: inline-flex;
   padding-top: 45px;
   padding-bottom: 250px;
-  padding-left: 500px;
-  padding-right: 501px;
+  margin-left: 500px;
+  margin-right: 501px;
   width: max-content;
-  margin: 0px;
-  
-  display: flex;
+display: flex;
   align-items: center;
+  justify-content:center;
   
 }
  
@@ -213,8 +209,14 @@ padding-top: 211px;
   color: var(--main-color);
   background-color: transparent;
 }
+
 .scroll-container{
   display:flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding: 0 15px;
+   
  
 }
   
@@ -229,8 +231,10 @@ padding-top: 211px;
   padding-bottom: 104px;
   margin: 0px;
   
-   
 }
+  
+   
+
 .scrolls li{
   width: 270px;
   margin-right: 33px;
@@ -261,23 +265,28 @@ padding-top: 211px;
 
   
 }
+.heading-container{
+  display: inline;
+  width: 1200px;
+ align-items:center;
+ justify-content:center;
+ margin: auto;
+}
 .heading{
   display: flex;
-  align-items: center;
-
- width: max-content;
- padding-top: 0px;
- padding-bottom: 59px;
- padding-left: 415px;
- padding-right: 414px;
- margin: 0px;
- justify-content:center;
+  width: 1200px;
+   align-items: center;
+   justify-content:center;
+   margin: 0px 90px 0px 90px;
+   padding-bottom: 59px;
 }
 .images{
   display: flex;
+ width: 1200px;
   padding: 0px 0px 94px 0px;
-  margin: 0px;
+  align-items: center;
   justify-content:space-between;
+  margin: 0px 90px 0px 90px;
 }
 .images li{
   margin-right: 30px;
@@ -380,8 +389,10 @@ justify-content: center;
 .projects-list{
   display:flex;
   margin: 0px;
-  padding: 95px 295px 20px 295px;
-  
+  padding-top: 95px; 
+  padding-bottom: 20px;
+  padding-left: 0px;
+  justify-content: center;
 }
 .projects-list li{
   display: flex;
