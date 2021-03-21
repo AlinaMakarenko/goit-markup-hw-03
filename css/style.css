@@ -113,7 +113,7 @@ img {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.292;
+  line-height: 30, 52px;
   letter-spacing: 0.03;
 }
 .list {
@@ -126,7 +126,7 @@ img {
 }
 .list:hover,
 :focus {
-  color: var(--blue-text);
+  color: var(--main-color);
 }
 
 .list-address {
@@ -151,10 +151,11 @@ img {
 
 .hero {
   color: var(--main-light);
+  font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  letter-spacing: 0, 04;
+  letter-spacing: 0, 06;
   
  
   
@@ -178,11 +179,13 @@ padding-top: 212px;
 
 
 .button{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   color: var(--main-light);
   background-color: var(--main-color);
   font-size: 16;
   line-height: 30px;
-  letter-spacing: 0, 02;
+  letter-spacing: 0, 06;
   cursor: pointer;
   display: flex;
   
@@ -228,8 +231,8 @@ display: flex;
   padding-left: 0px;
   padding-right: 0px;
   padding-top: 97px;
-  padding-bottom: 104px;
-  margin: 0px;
+   padding-bottom: 104px;
+ margin: 0px;
   
 }
   
@@ -244,12 +247,15 @@ display: flex;
   padding-right: 0px;
 }
 .scroll-title {
+font-family: 'Roboto',sans-serif ;
+  font-weight: 700;
   color: var(--corporation-color);
   font-size: 14px;
   line-height: 16.41px;
-  letter-spacing: 0, 02;
+  letter-spacing: 0, 03;
 }
 .scroll-indent {
+  font-family: 'Roboto',sans-serif ;
   color: var(--scroll-text);
   font-weight: 400;
   font-size: 14px;
@@ -257,10 +263,12 @@ display: flex;
   letter-spacing: 0, 03;
 }
 .heading {
+  font-family: 'Roboto',sans-serif ;
+  font-weight: 700;
   color: var(--corporation-color);
   font-size: 36px;
   line-height: 42.19px;
-  letter-spacing: 0, 05;
+  letter-spacing: 0, 03;
   
 
   
@@ -271,6 +279,7 @@ display: flex;
  align-items:center;
  justify-content:center;
  margin: auto;
+padding-top: 104px;
 }
 .heading{
   display: flex;
@@ -300,7 +309,7 @@ display: flex;
   font-weight: 700;
   font-size: 36px;
   line-height: 42.19px;
-  letter-spacing: 0, 05;
+  letter-spacing: 0, 03;
 }
 .heading-team{
   display: flex;
@@ -316,7 +325,7 @@ width: max-content;
 .cards{
   display: flex;
   margin: 0px;
-  padding: 0px;
+  padding: 0px 0px 94px 0px;
   
   justify-content: space-between;
   text-align: center;
@@ -334,6 +343,7 @@ width: max-content;
   background-color: var(--team-background);
 }
 .name {
+  font-family: 'Roboto',sans-serif ;
   color: var(--corporation-color);
   font-weight: 500;
   font-size: 16px;
@@ -358,6 +368,7 @@ justify-content: center;
   
 
 .vocation {
+  font-family: 'Roboto',sans-serif ;
   color: var(--scroll-text);
   font-weight: 400;
   font-size: 16px;
@@ -366,6 +377,7 @@ justify-content: center;
 }
 
 .button-list {
+  font-family: 'Roboto',sans-serif ;
   color: var(--corporation-color);
   background-color: var(--main-light);
   font-weight: 500;
@@ -381,10 +393,12 @@ justify-content: center;
 }
 
 .projects {
+  font-family: 'Roboto',sans-serif ;
+  font-weight: 700;
   color: var(--black-text);
   font-size: 18px;
   line-height: 36px;
-  letter-spacing: 0, 02;
+  letter-spacing: 0, 06;
 }
 .projects-list{
   display:flex;
@@ -401,11 +415,12 @@ justify-content: center;
 }
 
 .list-title {
+  font-family: 'Roboto',sans-serif ;
   color: var(--scroll-text);
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
-  letter-spacing: 0, 04;
+  letter-spacing: 0, 03;
 }
 
 .cars-projects{
@@ -452,9 +467,19 @@ margin-right: 30px;
 margin-right: 0px;
 
 }
+.projects-list-title-bottom{
+border: 1px solid var(--border-header);
+margin-right: 30px;
+padding-bottom: 94px;
+}
+.projects-list-title-last-bottom{
+  border: 1px solid var(--border-header);
+margin-right: 0px;
+padding-bottom: 94px;}
+
 .footer {
   background-color: var(--head-footer-background);
-  padding-top: 94px;
+  padding-top: 66px;
 }
 
   
@@ -462,8 +487,12 @@ margin-right: 0px;
 .footer-logo{
   display: block;
   margin: 0px;
-padding: 66px 0px 28px 0px;
+padding: 0px 0px 28px 0px;
 }
+.footer-logo:hover,
+:focus {
+  color: var(--main-color);
+  background-color: transparent;}
 .logo-white {
   color: var(--main-light);
   font-family: 'Raleway', sans-serif;
@@ -472,6 +501,11 @@ padding: 66px 0px 28px 0px;
   line-height: 30, 52px;
   letter-spacing: 0, 03;
 }
+.logo-white:hover,
+:focus {
+  color: var(--main-color);
+  background-color: transparent;}
+
 address {
   font-style: normal;
   display: block;
@@ -488,6 +522,11 @@ address {
   margin: 0px;
   padding-bottom: 22px;
 }
+.address-city:hover,
+:focus {
+  color: var(--main-color);
+  background-color: transparent;}
+
 .address-link {
   color: var(--main-light-op-60);
   font-family: 'Roboto', sans-serif;
@@ -506,9 +545,9 @@ address {
   padding-left: 0px;
 
 }
-.address-link:hover, 
-  :focus{
-color: var(--main-color);
+.address-link:hover,
+:focus {
+  color: var(--main-color);
   background-color: transparent;
 }
 .link-address li:last-child{
