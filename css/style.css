@@ -102,7 +102,7 @@ img {
 }
 
 .logo-blue,.logo-black:hover,
-:focus {
+.logo-blue,.logo-black:focus {
   color: var(--main-color);
   background-color: transparent;
 }
@@ -125,7 +125,7 @@ img {
   letter-spacing: 0.02em;
 }
 .list:hover,
-:focus {
+.list:focus {
   color: var(--main-color);
 }
 
@@ -139,7 +139,7 @@ img {
 }
 
 .list-address:hover,
-:focus {
+.list-address:focus {
   color: var(--main-color);
   background-color: transparent;
 
@@ -215,7 +215,7 @@ align-items: center;
 }
  
 .button:hover,
-:focus {
+.button:focus {
   color: var(--main-color);
   background-color: transparent;
 }
@@ -405,7 +405,7 @@ justify-content: center;
   
 }
 .button-list:hover,
-:focus {
+.button-list:focus {
   color: var(--main-color);
   background-color:transparent;
 }
@@ -462,7 +462,7 @@ padding-top: 30px;
 }
 .projects{
   padding: 31px 0px 24px 0px;
-   
+   margin: 0px;
 }
 .images-card{
   margin-right: 30px;
@@ -491,12 +491,12 @@ margin-right: 0px;
 }
 .projects-list-title-bottom{
 border: 1px solid var(--border-header);
-
+margin-right: 30px;
 
 }
-.projects-list-title-bottom{
+.projects-list-title-bottom3{
   border: 1px solid var(--border-header);
-
+margin-right: 0px;
 }
 
 .footer {
@@ -513,7 +513,7 @@ border: 1px solid var(--border-header);
 padding: 0px 0px 28px 0px;
 }
 .footer-logo:hover,
-:focus {
+.footer-logo:focus {
   color: var(--main-color);
   background-color: transparent;}
 .logo-white {
@@ -525,7 +525,7 @@ padding: 0px 0px 28px 0px;
   letter-spacing: 0.03em;
 }
 .logo-white:hover,
-:focus {
+.logo-white:focus {
   color: var(--main-color);
   background-color: transparent;}
 
@@ -546,7 +546,7 @@ address {
   
 }
 .address-city:hover,
-:focus {
+.address-city:focus {
   color: var(--main-color);
   background-color: transparent;}
 
@@ -569,7 +569,7 @@ address {
 
 }
 .address-link:hover,
-:focus {
+.address-link:focus {
   color: var(--main-color);
   background-color: transparent;
 }
