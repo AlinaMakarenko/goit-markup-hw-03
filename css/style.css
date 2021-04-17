@@ -27,6 +27,7 @@
   margin-left: auto;
   margin-right: auto;
 width: 1200px;
+
  padding: 0 15px;
  display: flex;
   justify-content: space-between;
@@ -39,19 +40,17 @@ border-bottom: 1px solid var(--border-header);
   display: block;
   width: max-content;
   margin-right:  93px ;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  align-items: center;
+  
+ 
 
 }
 
 .nav-list{
   display: inline-block;
-  max-width: min-content;
+ 
   margin: 0 0 0 0px;
   padding-left: 0px;
-  padding-top: 34px;
-  padding-bottom: 31px;
+  
 }
 .logo,
 .nav-list{
@@ -61,6 +60,7 @@ border-bottom: 1px solid var(--border-header);
 .nav-list li{
   display: block;
   margin-right: 52px;
+  
 }
 
 
@@ -69,11 +69,11 @@ display: flex;
  align-items: center;
  padding-left: 0px;
  margin: 0px;
- padding-top: 34px;
-padding-bottom: 31px;
+ 
 }
 .address li{
   margin-left: 54px;
+  
 }
 
 ul {
@@ -115,6 +115,8 @@ img {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .list {
   color: var(--corporation-color);
@@ -123,6 +125,9 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  height: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .list:hover,
 .list:focus {
@@ -136,6 +141,8 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+padding-bottom: 32px;
 }
 
 .list-address:hover,
@@ -220,12 +227,12 @@ align-items: center;
   background-color: transparent;
 }
 .scroll{
-  display:flex;
+  display:block;
   padding-top: 97px;
   padding-bottom: 101px;
 }
 .scroll-container{
-  display:flex;
+  display:block;
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
@@ -302,7 +309,7 @@ font-family: 'Roboto',sans-serif ;
    align-items: center;
    justify-content:center;
    margin: auto;
-   padding-bottom: 59px;
+   margin-bottom: 59px;
 }
 .images{
   display: flex;
@@ -332,15 +339,11 @@ font-family: 'Roboto',sans-serif ;
   padding-bottom: 94px;
 }
 .heading-team{
-  display: flex;
+  display: block;
   align-items: center;
-width: max-content;
- padding-top: 54px;
- padding-bottom: 50px;
- padding-left: 471px;
- padding-right: 470px;
- margin: 0px;
- justify-content:center;
+margin-top: 0px;
+ margin-bottom: 50px;
+text-align: center;
 }
 .cards{
   display: flex;
@@ -371,19 +374,21 @@ width: max-content;
 .name{
   display: flex;
   margin: 0px;
-  padding-top: 33px;
-  padding-bottom: 13px;
-text-align: center;
+  margin-bottom: 10px;
+  text-align: center;
 justify-content: center;
 }
-.vocation {
-  margin: 0px;
-  padding-bottom: 31px;
 
-}
-  
 
-  
+
+ .name-vocation{
+   padding-top: 33px;
+   padding-bottom: 33px;
+ }
+
+  .vocation{
+    margin: 0px;
+  }
 
 .vocation {
   font-family: 'Roboto',sans-serif ;
@@ -426,7 +431,7 @@ justify-content: center;
 .projects-list{
   display:flex;
   margin: 0px;
-  padding-bottom: 20px;
+  margin-bottom: 50px;
   padding-left: 0px;
   justify-content: center;
 }
@@ -452,18 +457,19 @@ justify-content: center;
   padding: 0px;
   
 }
+.card-projects-list-first{
+  display: inline-flex;
+text-align: center;
+}
 .card-projects-list{
 display: inline-flex;
 text-align: center;
-padding-top: 30px;
+margin-top: 30px;
 }
 .card-projects .li{
   margin-right: 30px;
 }
-.projects{
-  padding: 31px 0px 24px 0px;
-   margin: 0px;
-}
+
 .images-card{
   margin-right: 30px;
   justify-content: space-between;
@@ -471,33 +477,28 @@ padding-top: 30px;
 .images-card-last{
   margin: 0px;
 }
+.projects{
+  margin: 0px;
+}
 .list-title{
   margin: 0px;
-  padding: 0px;
-  padding-bottom: 26px;
 }
 .list-title-footer{
-  padding-bottom: 26px;
   margin: 0px;
 }
 .projects-list-title{
 border: 1px solid var(--border-header);
 margin-right: 30px;
+padding: 20px 24px;
+text-align: left;
 }
 .projects-list-title-last{
   border: 1px solid var(--border-header);
 margin-right: 0px;
+padding: 20px 24px;
+text-align: left;
+}
 
-}
-.projects-list-title-bottom{
-border: 1px solid var(--border-header);
-margin-right: 30px;
-
-}
-.projects-list-title-bottom3{
-  border: 1px solid var(--border-header);
-margin-right: 0px;
-}
 
 .footer {
   background-color: var(--head-footer-background);
@@ -509,8 +510,8 @@ margin-right: 0px;
 
 .footer-logo{
   display: block;
-  margin: 0px;
-padding: 0px 0px 28px 0px;
+  
+margin: 0px 0px 28px 0px;
 }
 .footer-logo:hover,
 .footer-logo:focus {
@@ -559,7 +560,7 @@ address {
   letter-spacing: 0.03em;
   display: block;
   margin: 0px;
-  padding-top: 15px;
+  margin-top: 15px;
 }
 .link-address{
   display: block;
